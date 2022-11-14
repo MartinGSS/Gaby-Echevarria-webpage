@@ -72,11 +72,11 @@ nav {
 }
 
 #we-container {
-    height: 500px;
+    height: 540px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 60px;
+    gap: 55px;
     align-items: center;
     background-image: url('./images/mobile/image-header.jpg');
     background-position: bottom;
@@ -87,7 +87,7 @@ nav {
 #we-container h1 {
     font-family: 'Fraunces', serif;
     font-weight: 900;
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     letter-spacing: 7px;
     text-align: center;
     color: white;
