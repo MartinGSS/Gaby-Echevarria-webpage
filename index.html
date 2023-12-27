@@ -6,55 +6,101 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Righteous&family=Waiting+for+the+Sunrise&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./style.css">
-  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <title>Gaby Echevarria</title>
 
 </head>
 <body>
   <nav>
-    <div id="logo"><img src="./images/logo.svg" alt=""></div>
+    <div id="share-nav">
+      <div class="social-network"><a href="https://www.instagram.com/gabyeche.musica/"><img src="./images/instagram-logo.png" alt="icon-instagram"></a></div>
+      <div class="social-network"><a href="https://www.facebook.com/gabyeche.musica"><img src="./images/facebook-logo.png" alt="icon-facebook"></a></div>
+      <div class="social-network"><a href="https://www.linkedin.com/in/gaby-echevarria-6a035475/"><img src="./images/linkedin-logo.png" alt="icon-twitter"></a></div>
+      <div class="social-network"><a href="https://open.spotify.com/artist/35VAEOUPajEVdRyEfMeBiy?si=wu4gydg3Th-VhQTp0hAo8A&utm_source=whatsapp"><img src="./images/spotify-logo.png" alt="icon-twitter"></a></div>
+      <div class="social-network"><a href="https://www.patreon.com/gabyeche"><img src="./images/patreon-logo.png" alt="icon-twitter"></a></div>
+    </div>
     <ul class="nav-links">
       <button id="hamburger" onclick="dropdownMenu()"><img src="./images/icon-hamburger.svg" alt="icon-hamburger"></button>
       <div id="menu">
-        <li class="menu-item" id="about"><a href="#transform-container">About</a></li>
-        <li class="menu-item" id="services"><a href="#graphic-design-container">Services</a></li>
-        <li class="menu-item" id="projects"><a href="#client-testimonials-general-container">Projects</a></li>
+        <button id="close" onclick="dropdownMenu()"><img src="./images/icon-close.svg" alt="icon-close"></button>
+        <li class="menu-item" id="about"><a href="#egg-img">ABOUT</a></li>
+        <li class="menu-item" id="services"><a href="#stand-out-container">VIDEOS</a></li>
+        <li class="menu-item" id="projects"><a href="#graphic-design-container">MUSIC</a></li>
         <li class="menu-item" id="contact"><a href="#footer">CONTACT</a></li>
       </div>
     </ul>
   </nav>
+  <div id="play"><img src="./images/audio-play.png" alt=""></div>
+  <div id="pause"><img src="./images/video-pause-button.png" alt=""></div>
   <div id="we-container">
-    <h1>WE ARE <wbr/>CREATIVES</h1>
-    <div id="arrow">
-      <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down">
-    </div>
+    <h1>GABY <br/>ECHEVARRIA</h1>
+    <div id="flecha"><img src="./images/flecha-hacia-abajo.png" alt=""></div>
   </div>
   <div id="transform-container">
-    <div id="egg"><img id="egg-img" src="./images/mobile/image-transform.jpg" alt="egg"></div>
+    <div id="patreon-logo"><a href="https://www.patreon.com/gabyeche"><img src="./images/patreon-big-logo.png" alt=""></a></div>
+    <div id="egg"><img id="egg-img" src="./images/mobile/Sin título.png" alt="egg"></div>
+    <div id="support"><p>support me</p></div>
+    <div id="curved-arrow"><img src="./images/Curved-arrow-hand-drawn.png" alt=""></div>
     <div id="transform-text">
-      <h4>Transform your<br/>brand</h4>
-      <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+      <h4>Hi!!! Gaby here! <span class="highlight-title">:)</span></h4>
+      <p> I’m a singer-songwriter, pianist, arranger and teacher from Buenos Aires, Argentina living in London. I create my own music, enjoy covering songs, love improvising meditation music and recently, life made me discover music for babies <span class="highlight-title">^^</span>.</p>
       <a href="">LEARN MORE</a>
     </div>
   </div>
   <div id="stand-out-container">
-    <div id="stand-out"><img id="stand-out-img" src="./images/mobile/image-stand-out.jpg" alt="glass"></div>
-    <div id="stand-out-text">
-      <h4>Stand out to the <wbr/>right audience</h4>
-      <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
-      <a href="">LEARN MORE</a>
+    <div id="videos-title"><img src="./images/titulo-videos-2.png" alt=""></div>
+    <div id="space"></div>
+    <div class="photogram-video" id="https://www.youtube.com/embed/D82FfJcFGFQ">
+      <div class="button-container"><img class="ytplay-button" src="./images/ytplay-button.png" alt=""></div>
+      <img class="video" src="./images/mobile/photogram-video1.png" alt="">
+    </div>
+    <div class="photogram-video" id="https://www.youtube.com/embed/WYb0JqMpkzs">
+      <div class="button-container"><img  class="ytplay-button" src="./images/ytplay-button.png" alt=""></div>
+      <img class="video" src="./images/mobile/photogram-video2.png" alt="">
+    </div>
+    <div class="photogram-video" id="https://www.youtube.com/embed/MzNLNx6vMEw">
+      <div class="button-container"><img class="ytplay-button" src="./images/ytplay-button.png" alt=""></div>
+      <img class="video" src="./images/mobile/photogram-video4.png" alt="">
+    </div>
+    <div class="photogram-video" id="https://www.youtube.com/embed/yyNKQ8ZT6JA">
+      <div class="button-container"><img class="ytplay-button" src="./images/ytplay-button.png" alt=""></div>
+      <img class="video" src="./images/mobile/photogram-video3.png" alt="">
     </div>
   </div>
-  <div id="graphic-design-photography-container">
-    <div id="graphic-design-container">
-      <h4>Graphic Design</h4>
-      <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+  <div id="graphic-design-container">
+    <h2>ALBUMS</h2>
+    <div class="album">
+      <div class="spotify-link-container"><a href="https://open.spotify.com/album/1bSM0k63PWIq7tQ4ikiBvd?si=6XtZfWceSCW5uL3G6Cs8Ug" target='_blank'><img src="./images/spotify-logo-color.png" alt=""></a></div>
+      <a href="https://open.spotify.com/album/1bSM0k63PWIq7tQ4ikiBvd?si=6XtZfWceSCW5uL3G6Cs8Ug" target='_blank'><img src="./images/album-rock-nacional-para-bebes.jpg" alt=""></a>
+      <a href="https://open.spotify.com/album/1bSM0k63PWIq7tQ4ikiBvd?si=6XtZfWceSCW5uL3G6Cs8Ug" target='_blank'><h4>Rock Nacional Para Bebés</h4></a>
+      <p>2022</p>
     </div>
-    <div id="photography-container">
-      <h4>Photography</h4>
-      <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+    <div class="album">
+      <div class="spotify-link-container"><a target="_blank" href="https://open.spotify.com/album/5Yi3L2x9FGgfmKENvk5n8m?si=E66ag5PqTgaFndTbl_NpBQ"><img src="./images/spotify-logo-color.png" alt=""></a></div>
+      <a target="_blank" href="https://open.spotify.com/album/5Yi3L2x9FGgfmKENvk5n8m?si=E66ag5PqTgaFndTbl_NpBQ"><img src="./images/album-folklore-para-bebes.png" alt=""></a>
+      <a target="_blank" href="https://open.spotify.com/album/5Yi3L2x9FGgfmKENvk5n8m?si=E66ag5PqTgaFndTbl_NpBQ"><h4>Folklore Para Bebés</h4></a>
+      <p>2020</p>
+    </div>
+    <div class="album">
+      <div class="spotify-link-container"><a target="_blank" href="https://open.spotify.com/album/1ozKe2YaSUM2iqoGeKEEFM?si=rx1Ke8IxSruBVvQxfahQQA"><img src="./images/spotify-logo-color.png" alt=""></a></div>
+      <a target="_blank" href="https://open.spotify.com/album/1ozKe2YaSUM2iqoGeKEEFM?si=rx1Ke8IxSruBVvQxfahQQA"><img src="./images/album-para-pintarte.webp" alt=""></a>
+      <a target="_blank" href="https://open.spotify.com/album/1ozKe2YaSUM2iqoGeKEEFM?si=rx1Ke8IxSruBVvQxfahQQA"><h4>Para Pintarte</h4></a>
+      <p>2017</p>
+    </div>
+    <div class="album">
+      <div class="spotify-link-container"><a target="_blank" href="https://open.spotify.com/album/39YXXHahlgxxTQX4xDXRSd?si=RjRJD1L7RHidzSCmpJ3fTQ"><img src="./images/spotify-logo-color.png" alt=""></a></div>
+      <a target="_blank" href="https://open.spotify.com/album/39YXXHahlgxxTQX4xDXRSd?si=RjRJD1L7RHidzSCmpJ3fTQ"><img src="./images/album-alli.webp" alt=""></a>
+      <a target="_blank" href="https://open.spotify.com/album/39YXXHahlgxxTQX4xDXRSd?si=RjRJD1L7RHidzSCmpJ3fTQ"><h4>Allí</h4></a>
+      <p>2015</p>
+    </div>
+    <div class="album">
+      <div class="spotify-link-container"><a target="_blank" href="https://open.spotify.com/album/3buIqkG9cZUV3nx4QzjSme?si=Bfpys0DKTYSCaU1zNmTpHw"><img src="./images/spotify-logo-color.png" alt=""></a></div>
+      <a target="_blank" href="https://open.spotify.com/album/3buIqkG9cZUV3nx4QzjSme?si=Bfpys0DKTYSCaU1zNmTpHw"><img src="./images/album-gotas-de-tiempo.webp" alt=""></a>
+      <a target="_blank" href="https://open.spotify.com/album/3buIqkG9cZUV3nx4QzjSme?si=Bfpys0DKTYSCaU1zNmTpHw"><h4>Gotas Del Tiempo</h4></a>
+      <p>2008</p>
     </div>
   </div>
   <div id="client-testimonials-general-container">
@@ -95,21 +141,65 @@
     </div>
   </div>
   <footer id="footer">
-    <div ><img id="logo-footer" src="./images/logo.svg" alt="logo"></div>
+    <form id="form" onsubmit="return sendEmail();">
+      <input type="text" id="name" name="name"><br>
+      <input type="email" id="email" name="email"><br>
+      <input type="text" id="mesagge" name="mesagge"><br><br>
+      <input type="submit" value="Send">
+      <button onclick="sendEmail()">send</button>
+    </form>
     <div>
       <ul id="menu-footer">
         <li><a href="">About</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="">Projects</a></li>
+        <li><a href="">Videos</a></li>
+        <li><a href="">Music</a></li>
       </ul>
     </div>
-    <div id="share">
-      <div class="social-network"><a href="https://www.facebook.com/login/"><img src="./images/icon-facebook.svg" alt="icon-facebook"></a></div>
-      <div class="social-network"><a href="https://www.instagram.com/login/"><img src="./images/icon-instagram.svg" alt="icon-instagram"></a></div>
-      <div class="social-network"><a href="https://twitter.com/i/flow/login"><img src="./images/icon-twitter.svg" alt="icon-twitter"></a></div>
-      <div class="social-network"><a href="https://www.pinterest.it/login/"><img src="./images/icon-pinterest.svg" alt="icon-pinterest"></a></div>
+    <div id="share-footer">
+      <div class="social-network"><a href="https://www.instagram.com/gabyeche.musica/"><img src="./images/instagram-logo.png" alt="icon-instagram"></a></div>
+      <div class="social-network"><a href="https://www.facebook.com/gabyeche.musica"><img src="./images/facebook-logo.png" alt="icon-facebook"></a></div>
+      <div class="social-network"><a href="https://www.linkedin.com/in/gaby-echevarria-6a035475/"><img src="./images/linkedin-logo.png" alt="icon-linkedin"></a></div>
+      <div class="social-network"><a href="https://open.spotify.com/artist/35VAEOUPajEVdRyEfMeBiy?si=wu4gydg3Th-VhQTp0hAo8A&utm_source=whatsapp"><img src="./images/spotify-logo.png" alt="icon-spotify"></a></div>
+      <div class="social-network"><a href="https://www.patreon.com/gabyeche"><img src="./images/patreon-logo.png" alt="icon-patreon"></a></div>
     </div>
   </footer>
+  <div id="lightbox-backdrop">
+    <span>&times;</span>
+    <div id="yt-video-container">
+      <iframe src="" title="Por seguir - Leo Gomez y Gaby Echevarria (Raúl Carnota)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyC8k_kVHlcuwWSiJjA_CxKAEPDfoY42SF0",
+      authDomain: "treneris-f0d19.firebaseapp.com",
+      databaseURL: "https://treneris-f0d19.firebaseio.com",
+      projectId: "treneris-f0d19",
+      storageBucket: "treneris-f0d19.appspot.com",
+      messagingSenderId: "768119059747",
+      appId: "1:768119059747:web:3f029d0a9975dfafe64896",
+      measurementId: "G-6EZXTYWXS8"
+    };
+    firebase.initializeApp(firebaseConfig);
+    function sendEmail() {
+      const db = firebase.firestore();
+      const name = document.getElementById('name').value
+      //const email = document.getElementById('email').value
+      //const mesagge = document.getElementById('mesagge').value
+      console.log('pepe')
+      db.collection('mail').add({
+        to: ['tincho_saimon@hotmail.com'],
+        message: {
+          subject: 'Hello from Firebase!',
+          text: 'hola cocacola',
+          //html: `<p>Nombre: ${name}</p><p> Email: ${email}</p><p>Mensaje: ${message}</p>`,
+          html: 'This is the HTML section '+ manu +' of the email body.',
+        }
+      });
+}
+  </script>
   <script src="./index.js"></script>
 </body>
 </html>
