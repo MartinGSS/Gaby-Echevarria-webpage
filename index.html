@@ -141,12 +141,14 @@
     </div>
   </div>
   <footer id="footer">
-    <form id="form" onsubmit="return sendEmail();">
+    <form id="form" action="https://formsubmit.co/90f544d28225b525426410a2832de96a" method="POST">
+      <label for="name">Name</label>
       <input type="text" id="name" name="name"><br>
+      <label for="email">Email</label>
       <input type="email" id="email" name="email"><br>
-      <input type="text" id="mesagge" name="mesagge"><br><br>
-      <input type="submit" value="Send">
-      <button onclick="sendEmail()">send</button>
+      <label for="message">Message</label>
+      <textarea name="message" id="message" placeholder="Leave message"></textarea>
+      <button onclick="sendEmail()">Contact me</button>
     </form>
     <div>
       <ul id="menu-footer">
@@ -187,7 +189,7 @@
       const db = firebase.firestore();
       const name = document.getElementById('name').value
       //const email = document.getElementById('email').value
-      //const mesagge = document.getElementById('mesagge').value
+      //const message = document.getElementById('message').value
       console.log('pepe')
       db.collection('mail').add({
         to: ['tincho_saimon@hotmail.com'],
