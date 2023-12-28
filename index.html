@@ -143,12 +143,13 @@
   <footer id="footer">
     <form id="form" action="https://formsubmit.co/90f544d28225b525426410a2832de96a" method="POST">
       <label for="name">Name</label>
-      <input type="text" id="name" name="name"><br>
+      <input type="text" id="name" name="name" required><br>
       <label for="email">Email</label>
-      <input type="email" id="email" name="email"><br>
+      <input type="email" id="email" name="email" required><br>
       <label for="message">Message</label>
-      <textarea name="message" id="message" placeholder="Leave message"></textarea>
-      <button onclick="sendEmail()">Contact me</button>
+      <textarea name="message" id="message" placeholder="Leave message" required></textarea>
+      <button type="submit">Contact Gaby</button>
+      <!--<button onclick="sendEmail()">Contact me</button>-->
     </form>
     <div>
       <ul id="menu-footer">
