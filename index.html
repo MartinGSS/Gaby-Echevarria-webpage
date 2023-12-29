@@ -33,11 +33,9 @@
       </div>
     </ul>
   </nav>
-  <div id="play"><img src="./images/audio-play.png" alt=""></div>
-  <div id="pause"><img src="./images/video-pause-button.png" alt=""></div>
   <div id="we-container">
     <h1>GABY <br/>ECHEVARRIA</h1>
-    <div id="flecha"><img src="./images/flecha-hacia-abajo.png" alt=""></div>
+    <div id="flecha"><img src="./images/flecha-hacia-abajo.png" alt="arrow pointing down"></div>
   </div>
   <div id="transform-container">
     <div id="patreon-logo"><a href="https://www.patreon.com/gabyeche"><img src="./images/patreon-big-logo.png" alt=""></a></div>
@@ -141,14 +139,19 @@
     </div>
   </div>
   <footer id="footer">
+    <h2 id="contact-header">CONTACT ME</h2>
     <form id="form" action="https://formsubmit.co/90f544d28225b525426410a2832de96a" method="POST">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" required><br>
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required><br>
-      <label for="message">Message</label>
-      <textarea name="message" id="message" placeholder="Leave message" required></textarea>
-      <button type="submit">Contact Gaby</button>
+      
+      <label class="label" for="name">Name</label>
+      <input class="input" type="text" id="name" name="name" autocomplete="off" required><br>
+      
+      <label class="label" for="email">Email</label>
+      <input class="input" type="email" id="email" name="email" autocomplete="off" required><br>
+      
+      <label class="label" for="message">Message</label>
+      <textarea id="textarea" class="input" name="message" id="message"   autocomplete="off" required></textarea>
+      
+      <button id="submit" type="submit">Send</button>
       <!--<button onclick="sendEmail()">Contact me</button>-->
     </form>
     <div>

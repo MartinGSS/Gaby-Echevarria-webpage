@@ -445,10 +445,54 @@ footer {
     align-items: center;
 }
 
+#contact-header {
+  margin-top: 50px;
+  font-family: 'Fraunces', serif;
+  font-size: 1.5rem;
+  color: white;
+}
+
 #form {
-    margin-top: 100px;
+    margin-top: 20px;
+    font-family: 'Barlow', sans-serif;
     display: flex;
     flex-direction: column;
+}
+
+.label {
+  color: white;
+  margin-bottom: 3px;
+  font-size: 1.4rem;
+}
+
+.input {
+  all: unset;
+  color: #ffffff;
+  padding: 1rem;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  width: 250px;
+}
+
+#textarea {
+  height: 150px;
+}
+
+.input:focus {
+  border: 3px solid #ffffff;
+}
+
+#submit {
+  margin-top: 40px;
+  padding: 10px;
+  border: 3px solid white;
+  border-radius: 30px;
+  background-color: #96D9C6;
+  color: white;
+  font-size: 1.5rem;
+  width: 150px;
+  align-self: center;
+  font-family: 'Barlow', sans-serif;
 }
 
 #menu-footer {
