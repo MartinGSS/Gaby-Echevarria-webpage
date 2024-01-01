@@ -571,7 +571,7 @@ footer {
 
 @media (min-width: 768px) {
 
-    #hamburger{
+    #hamburger, #close {
         display: none;
     }
 
@@ -579,9 +579,8 @@ footer {
         display: flex;
         flex-direction: row;
         position: static;
+        height: auto;
         padding: 0px;
-        margin-right: 20px;
-        background-color: #06CCBB;
     }
 
     .menu-item {
@@ -589,12 +588,12 @@ footer {
         border: none;
         margin: 0px 25px;
         font-family: 'Barlow', sans-serif;
-        font-size: 1.1rem;
         color: white;
-    }
-
+      }
+      
     .menu-item a {
         color: white;
+        font-size: 1.1rem;
     }
 
     #contact {
@@ -617,13 +616,87 @@ footer {
     }
 
     #we-container h1 {
+        top: 220px;
         font-size: 8rem;
         text-align: left;
         align-self: flex-start;
         margin-left: 10vw;
     }
 
-    #transform-container, #stand-out-container {
+    #flecha {
+      display: none;
+    }
+
+    #transform-container {
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+    }
+
+    #egg {
+      width: 600px;
+      height: auto;
+      margin-left: 200px
+    }
+    
+    #egg img {
+      height: auto;
+      width: 300px;
+      position: static;
+      border-width: 0px;
+    }
+
+    #patreon-logo {
+      width: 0px;
+    }
+
+    #patreon-logo a {
+      display: block;
+      width: 0px;
+    }
+    
+    #patreon-logo img {
+      height: 100px;
+      top: 50px;
+      left: 190px
+    }
+
+    #support {
+      width: 0px;
+    }
+
+    #support p {
+      font-size: 2.5rem;
+      top: 210px;
+      left: -395px;
+      line-height: 40px;
+    }
+
+    #curved-arrow {
+      width: 0px;
+      left: 500px;
+    }
+
+    #curved-arrow img {
+      height: 150px;
+      top: 45px;
+      left: -450px;
+    }
+
+    #transform-text {
+      font-size: 2.5rem;
+      padding-top: 135px;
+      margin-right: 50px;
+    }
+
+    #transform-text h4 {
+      position: relative;
+      top: 0px;
+      left: -150px;
+      font-size: 3rem;
+    }
+
+    /*#transform-container, #stand-out-container {
         display: flex;
         text-align: left;
     }
@@ -654,9 +727,9 @@ footer {
 
     #transform-text p, #stand-out-text p {
         margin: 0px 0px 30px;
-    }
+    }*/
 
-    #graphic-design-photography-container {
+    /*#graphic-design-photography-container {
         display: flex;
     }
 
@@ -677,7 +750,7 @@ footer {
 
     #graphic-design-container p, #photography-container p {
         width: 50%;
-    }
+    }*/
 
     #client-testimonials-general-container{
         height: 51vw;
@@ -708,12 +781,12 @@ footer {
         flex-direction: row;
     }
 
-    .mobile {
+    /*.mobile {
         display: none;
     }
 
     .desktop {
         display: flex;
         width: 50%;
-    }
+    }*/
 }
